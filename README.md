@@ -17,6 +17,7 @@
 - React Router
 - Firebase(Authentication, Realtime Database)
 - Cloudinary 이미지 저장소
+- aws(s3)
 
 <br />
 
@@ -52,10 +53,13 @@
 
 ## Note
 ### Firbase
-Firebase를 이용할 경우 서버 인프라를 고민할 필요가 없습니다. Database, Storage, Auth, Analytice까지 제공해주기 때문입니다. 기본적으로 서비스를 구축하기 위한 서버단 세팅 등을 고민하지 않고 클라이언트 단의 작업만 진행하여 서비스를 제작할 수 있습니다.
+Firebase를 이용할 경우 서버 인프라를 고민할 필요가 없습니다. Database, Storage, Auth, Analytice까지 제공해주기 때문입니다. 기본적으로 서비스를 구축하기 위한 서버단 세팅 등을 고민하지 않고 클라이언트 단의 작업만 진행하여 서비스를 제작할 수 있기에 Firebase를 선택했습니다.
 
 #### Authentication
 Firebase 인증은 앱에서 사용자 인증 시 필요한 백엔드 서비스와 사용하기 쉬운 SDK, 기성 UI 라이브러리를 제공합니다. 비밀번호, 전화번호, ID(Google, Facebook, GitHub 등)를 통한 인증이 지원됩니다.
+
+#### Realtime Database
+
 
 <br />
 
@@ -106,3 +110,6 @@ class ImageUploader {
 
 export default ImageUploader;
 ```
+
+## 프로젝트 URL
+http://card-maker-project-s3.s3-website.ap-northeast-2.amazonaws.com/
